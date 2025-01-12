@@ -3,7 +3,7 @@
 #  ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
 #
 # backtracking vs. dfs
-# traverse in solution space vs. traverse in data structure space, pruned of dfs
+#traverse in solution space vs. traverse in data structure space, pruned of dfs
 
 
 def backtracking(self, data, candidate):
