@@ -1,7 +1,5 @@
 from collections import Counter
 import re
-
-
 # [46] https://leetcode.com/problems/permutations/
 # Given a collection of distinct integers, return all possible permutations.
 def permute(nums):
