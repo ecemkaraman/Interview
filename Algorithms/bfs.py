@@ -27,7 +27,6 @@ def bfs_iteratively_by_queue(self, start, target=None):
             if next_node not in visited:
                 queue.append(next_node)
 
-
 # iteration version, using list, pythonic-style
 # conciser but more memory, mainly used when you want to collect the whole list
 def bfs_iteratively_by_list(self, start, target=None):
