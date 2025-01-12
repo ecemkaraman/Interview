@@ -32,7 +32,6 @@ def mergeTwoLists2(a: int, b: int) -> int:
         a.next = mergeTwoLists2(a.next, b)
     return a
 
-
 # [904] https://leetcode.com/problems/fruit-into-baskets/
 # You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
 # What is the total amount of fruit you can collect with this procedure?
