@@ -3,8 +3,6 @@ from collections import defaultdict
 '''
 old & new state: old, new = new, cur_result
 '''
-
-
 # [198] https://leetcode.com/problems/house-robber/
 # determine the maximum amount of money you can rob tonight without adjacent houses
 def rob(nums: 'List[int]') -> 'int':
