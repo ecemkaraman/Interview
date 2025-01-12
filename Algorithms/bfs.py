@@ -4,8 +4,6 @@
 # Time:  O(V+E)     V: vertex, E: edges
 # Space: O(V)
 from collections import deque
-
-
 # iteration version, using deque
 def bfs_iteratively_by_queue(self, start, target=None):
     queue, visited = deque([start]), {start}
