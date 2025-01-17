@@ -131,7 +131,6 @@ def numberOfPatterns(m: int, n: int) -> int:
     backtracking(None, set(), {i for i in range(1, 10)})
     return res
 
-
 # [90] https://leetcode.com/problems/subsets-ii/
 # Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
 def subsetsWithDup(nums: 'List[int]') -> 'List[List[int]]':

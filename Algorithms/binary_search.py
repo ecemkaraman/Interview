@@ -3,7 +3,6 @@
 # Time:  O(log(n))
 # Space: O(1)
 
-
 # [lo, hi] version
 def binary_search(arr, target):
     lo, hi = 0, len(arr) - 1

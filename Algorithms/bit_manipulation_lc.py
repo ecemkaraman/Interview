@@ -2,7 +2,6 @@
 baiscs
 '''
 
-
 # [191] https://leetcode.com/problems/number-of-1-bits/
 # Write a function that takes an unsigned integer and return the number of '1' bits it has.
 def hammingWeight(n):
